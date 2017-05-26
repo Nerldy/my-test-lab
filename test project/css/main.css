@@ -1,14 +1,28 @@
 * {
-    margin : 0;
+    margin     : 0;
+    box-sizing : border-box;
 }
 
 .main {
-    padding : 20px;
+    padding   : 20px;
+    width     : 80%;
+    max-width : 900px;
+    margin    : 0 auto;
+    display   : flex;
+    flex-flow : wrap;
 }
 
 p {
     padding          : 30px;
     background-color : #2169fa;
     margin-bottom    : 10px;
-    border-radius    : 20pxc;
+    border-radius    : 20px;
+}
+
+.block {
+    flex : 1 1 200px;
+}
+
+.item-1 {
+    flex : 2;
 }
