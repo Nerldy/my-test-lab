@@ -3,6 +3,6 @@
  */
 const changeBG = document.querySelectorAll('.block');
 
-for (let x = 0; x < changeBG.length; x++){
-
+for (let x = 0; x < changeBG.length; x++) {
+    changeBG[x].style.backgroundColor = 'blue';
 }

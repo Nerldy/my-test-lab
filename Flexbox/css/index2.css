@@ -1,4 +1,14 @@
 .container {
-    max-width : 900px;
-    margin    : 0 auto;
+    max-width        : 900px;
+    margin           : 0 auto;
+    background-color : lightgrey;
+    display          : flex;
+    flex-flow        : row;
+    justify-content: space-between;
+}
+
+.block {
+    background-color : aquamarine;
+    margin           : 5px;
+    padding          : 10px;
 }

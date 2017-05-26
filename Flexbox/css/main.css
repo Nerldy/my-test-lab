@@ -13,11 +13,12 @@ html {
     background-color : #eef9f2;
     padding          : 10px;
     border-radius    : 10px;
+    /*height           : 1000px;*/
 
     /*Flexbox*/
     /*----------------------------*/
     display          : flex;
-    flex-flow        : column;
+    flex-flow        : row wrap;;
 }
 
 .block {
@@ -28,4 +29,8 @@ html {
     padding          : 10px;
     border-radius    : 3px;
     margin           : 5px;
+}
+
+.item-3 {
+    order : -3;
 }
